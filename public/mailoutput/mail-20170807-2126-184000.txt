@@ -1,0 +1,73 @@
+To: contato@escritoriointercom.com.br
+Subject: Correio de Contatos WebSite
+Message-ID: <3b567e5e1d9bd128ec7f593ed56bce86@127.0.0.1>
+Date: Mon, 07 Aug 2017 21:26:58 +0000
+From: Intercom <contato@escritoriointercom.com.br>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+    <meta charset=3D"utf-8">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+    <H1>Contato realizado pelo Site.</H1>
+    <br> =20
+    <p><strong>Nome =3D Murilo Gon=C3=A7alves Jacinto</strong></p>
+    <p><strong>E-mail =3D murilo@rtisistemas.com.br</strong></p>
+    <br>
+    <H3>Teste</H3>
+    <hr>
+    <p><strong>.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+..modal:before {
+  content: &#039;&#039;;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+..modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+..modal-header {
+  background: #1c3244 !important;
+  font-weight: bold;
+  color: #fff;
+}
+..modal-body {
+  border: 15px solid  #1c3144 ;
+  font-size: 18px;
+  font-weight: bold;
+  color:  #1c3144 ;
+}
+..modal-footer {
+  background: #1c3244 !important;
+  font-weight: bold;
+}
+
+..modal-footer .btn {
+    color: #fff;
+    background-color: #1c3144 !important;
+    border-color: #1c3144;
+    padding:5px 40px !important;
+    border: 5px solid #fff;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0px;
+}</strong></p>
+    <br>
+    <br>
+</body>
+</html>
