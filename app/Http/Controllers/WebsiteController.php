@@ -69,7 +69,7 @@ class WebsiteController extends Controller {
             \Session::put('icone_aba', 'https://fatogerador.net/painelUnico/public/' . $dados_footer_cliente[0]->icone_aba);
 
             \Session::put('og_title', $dados_footer_cliente[0]->titulo_site/* 'Intercom' */);
-            \Session::put('og_description', $dados_footer_cliente[0]->descricao_site/*  'Desenvolvendo softwares para a gestão administrativa e financeira para micro, pequenas e médias empresas.' */);
+            \Session::put('og_description', $dados_footer_cliente[0]->descricao_site/* 'Desenvolvendo softwares para a gestão administrativa e financeira para micro, pequenas e médias empresas.' */);
             \Session::put('og_url', asset('/'));
             \Session::put('og_site_name', $dados_footer_cliente[0]->nome_site/* 'Rodrigues Tecnologia em Informações' */);
             \Session::put('og_image', 'https://fatogerador.net/painelUnico/public' . $dados_footer_cliente[0]->foto_compartilhamento);
