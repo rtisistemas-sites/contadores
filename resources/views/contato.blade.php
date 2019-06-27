@@ -59,7 +59,7 @@ if (\Session::get('modelo_bannertopo') == 3) {
                     <div class="col-md-12">
                         <div class="col-md-6">
                             <form action="/contatoemail" method="POST" role="form" enctype="multipart/form-data">
-                                <input type="hidden" name="_token" value="{{{ csrf_token() }}}">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <div class="col-md-12" style="height: 45px;">
                                     <input type="text" name="nome" id="name" required class="form-control {{$input_m3}}" placeholder="Nome Completo">
                                 </div>
