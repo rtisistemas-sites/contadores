@@ -279,7 +279,6 @@ if (\Session::get('pagina') == 'HOME') {
 
 
         <div class="widget col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
             <ul class="contact_details">
                 <li class="center-block"><i class="fa fa-phone-square"></i> <span> <?php echo \Session::get('footer_telefone') ?></span></li>
                 @if(strlen(\Session::get('footer_telefone2')) >= 5)
@@ -315,7 +314,7 @@ if (\Session::get('pagina') == 'HOME') {
 
             <div class="col-md-6 rp1">
                 <div class="title left">
-                    <h5 style="padding-top: 25px;" class="title-footer">Copyrights © <?php echo date('Y'); ?>. Todos os direitos reservados {{\Session::get('cli_nome')}}</h5>
+                    <h5 style="padding-top: 25px;" class="title-footer">Copyrights © <?php echo date('Y'); ?>. Todos os direitos reservados {{ \Session::get('cli_nome') }}</h5>
                 </div>
             </div>
 
