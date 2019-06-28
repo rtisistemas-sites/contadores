@@ -171,7 +171,7 @@ if (\Session::get('modelo_bannertopo') == 3) {
 
     @if($dados[0]->mapa != '')
     <div class="wow animated zoomIn" data-wow-delay="1s" style="margin-bottom: -8px;">
-        <iframe src="<?php echo $dados[0]->mapa ?>" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="<?php echo $dados[0]->mapa ?>" width="100%" height="450" frameborder="0"  style="border:0" allowfullscreen></iframe>
     </div>
     <br><br>
     @endif
