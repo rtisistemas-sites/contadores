@@ -42,12 +42,12 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
 
 
 
-        <!-- TESTE para OS BANNERS SECUNDÁRIOS     -------- -->
+        <!-- TESTE para OS BANNERS SECUNDÁRIOS -------- -->
 
         <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script  type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <!-- END TESTE -------------   -->
+        <!-- END TESTE ----------   -->
 
 
 
@@ -89,6 +89,8 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <meta http-equiv="content-language" content="pt"/>
         <meta name="author" content=""/>
         <meta name="robots" content="index, follow"/>
+
+
 
         <!-- FACEBOOK KEYWORDS -->
         <meta property="og:title"          content="{{ \Session::get('og_title')       }}"/>
