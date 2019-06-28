@@ -13,6 +13,9 @@ if (\Session::get('modelo_bannertopo') === 3) {
     }
 }
 ?>
+
+
+
 <div id="Home" class="header" style="<?php echo $espacamento ?>">
     @if(\Session::get('modelo_bannertopo') == 3)
     <div class="centraliza_tudo_na_div logo-m3" style="margin-top: 30px ;">
@@ -119,6 +122,7 @@ if (\Session::get('modelo_bannertopo') === 3) {
             </div>
         </nav>
     </div><!-- menu wrapper -->
+
 
 
     @if(\Session::get('modelo_bannertopo') === 2)
