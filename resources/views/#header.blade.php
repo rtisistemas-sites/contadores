@@ -132,7 +132,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
                          <span class="pull-right"><a title="Youtube" href="<?php echo \Session::get('footer_youtube') ?>" target="_blank"><i class="fa fa-youtube fa-2x"></i></a></span>
                          @endif
                          @if(!(empty(\Session::get('footer_instagram'))) && (\Session::get('footer_instagram') != '#'))
-                         <span class="pull-right"><a title="Instagram" href="<?php echo \Session::get('footer_instagram') ?>" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></span>
+                         <span class="pull-right"><a title="Instagram" href="<?php echo \Session::get('footer_instagram') ?>"target="_blank"><i class="fa fa-instagram fa-2x"></i></a></span>
                          @endif
                          @if(!(empty(\Session::get('footer_linkedin'))) && (\Session::get('footer_linkedin') != '#'))
                          <span class="pull-right"><a title="Linkedin" href="<?php echo \Session::get('footer_linkedin') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
