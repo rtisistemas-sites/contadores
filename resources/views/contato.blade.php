@@ -16,7 +16,7 @@ if (\Session::get('modelo_bannertopo') === 3) {
 
 <div id="wrapper">
     @include('#menu')
-    @if((\Session::get('modelo_bannertopo') == 3) and (strlen(\Session::get('img_contato')) > 43))
+    @if((\Session::get('modelo_bannertopo') === 3) and (strlen(\Session::get('img_contato')) > 43))
     <!--<section class="content" style="height: 300px; margin-top: 30px  ; background-image: url({{\Session::get('img_contato')}});" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20"></section>-->
     <section class="" style="margin-top: 30px; width: 100%;" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
         <img class="d-block w-100 img-responsive"  src="{{\Session::get('img_contato')}}" alt="">
@@ -69,7 +69,7 @@ if (\Session::get('modelo_bannertopo') === 3) {
                                 </div>
 
                                 <div class="col-md-12" style="height: 45px;">
-                                    <input type="text" name="email" id="email" required class="form-control {{$input_m3}}" placeholder="Endereço do E-mail ">
+                                    <input type="text" name="email" id="email" required class="form-control {{$input_m3}}" placeholder="Endereço de E-mail ">
                                 </div>
                                 <div class="col-md-12" style="height: 45px;">
                                     <input type="text" name="assunto" id="subject" required class="form-control {{$input_m3}}" placeholder="Assunto ">
