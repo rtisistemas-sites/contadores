@@ -111,15 +111,15 @@ if (\Session::get('modelo_bannertopo') === 3) {
                         <li <?= \Session::get('pagina') == 'CONSULTE' ? 'class="current"' : '' ?>><a href="/consulte/conteudo/consulte" title="">{{{\Session::get('menu_consulte')}}}</a></li>
                         @endif
 
-
                         <li <?= \Session::get('pagina') == 'CONTATO' ? 'class="current"' : '' ?>><a href="/contato" title="">{{{ \Session::get('menu_contato')}}}</a></li>
                     </ul>
 
 
                 </div>
             </div>
-        </nav><!-- end navigation -->
+        </nav>
     </div><!-- menu wrapper -->
+
 
     @if(\Session::get('modelo_bannertopo') === 2)
     <br>
