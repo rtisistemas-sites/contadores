@@ -46,7 +46,7 @@ if (\Session::get('pagina') == 'HOME') {
                 <ul class="list-unstyled contact_details2">
                     @if(!empty(\Session::get('menu_inicio')))
                     <li style="padding: 5px 0px;width: 200px;">
-                        <a class="OpenSans Cinza-Claro reseta-link" href=Cinza"/principal">{{{ mb_convert_case((\Session::get('menu_inicio')), MB_CASE_TITLE, 'UTF-8')}}}</a>
+                        <a class="OpenSans Cinza-Claro reseta-link" href=Cinza"/principal">{{ mb_convert_case((\Session::get('menu_inicio')), MB_CASE_TITLE, 'UTF-8')}}</a>
                     </li>
                     @endif
                     @if(!empty(\Session::get('menu_quemsomos')))
@@ -93,6 +93,7 @@ if (\Session::get('pagina') == 'HOME') {
             </div>
 
 
+
         </div><!-- end widget -->
 
         <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
@@ -122,7 +123,7 @@ if (\Session::get('pagina') == 'HOME') {
                         <button type="submit" value="SEND" id="submit" class="btn btn-lg btn-primary">Cadastrar-se</button>
                     </div>
                 </form>
-            </div> <!-- end contact_widget -->
+            </div>
         </div><!-- end widget -->
 
         <div class="widget col-lg-4 col-md-4 col-sm-6 col-xs-12">

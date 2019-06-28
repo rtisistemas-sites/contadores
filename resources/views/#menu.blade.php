@@ -2,11 +2,11 @@
 $espacamento = '';
 $padding_right = '';
 $menu_m3_volta = '';
-if (\Session::get('modelo_bannertopo') == 2) {
+if (\Session::get('modelo_bannertopo') === 2) {
     $espacamento = 'margin-top: 0px;padding-top: 0px; ';
 }
 
-if (\Session::get('modelo_bannertopo') == 3) {
+if (\Session::get('modelo_bannertopo') === 3) {
     $padding_right = 'padding-right: 15% ;';
     if (\Session::get('pagina') == 'HOME') {
         $menu_m3_volta = 'menu-m3-volta';
