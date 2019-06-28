@@ -27,11 +27,11 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <!--  TESTE RESOLUÇÃO  -->
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
 
-        <!-- Awesome Icons Styles -->
+        <!-- Awesome Icons Styles  -->
         <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.css') }}" media="screen">
-        <!-- Awesome Icons Styles -->
+        <!-- Awesome Icons Styles  -->
         <link type="text/css" rel="stylesheet" href="{{ asset('css/et-line.css') }}" media="screen">
-        <!-- Css Styles alterado -->
+        <!-- Css Styles alterado  -->
 
 
 
