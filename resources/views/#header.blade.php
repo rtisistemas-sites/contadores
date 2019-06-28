@@ -111,7 +111,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
     </head>
     <body id="custom">
 
-        @if ((\Session::get('modelo_bannertopo') == 3))
+        @if ((\Session::get('modelo_bannertopo') === 3))
 
         <section class="topo_modelo_de_pagina_03" >
             <div class="container" >
@@ -134,7 +134,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
                          <span class="pull-right"><a title="Instagram" href="<?php echo \Session::get('footer_instagram') ?>"target="_blank"><i class="fa fa-instagram fa-2x"></i></a></span>
                          @endif
                          @if(!(empty(\Session::get('footer_linkedin'))) && (\Session::get('footer_linkedin') != '#'))
-                         <span class="pull-right"><a title="Linkedin" href="<?php echo \Session::get('footer_linkedin') ?>" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+                         <span class="pull-right"><a title="Linkedin" href="<?php echo \Session::get('footer_linkedin') ?>"   target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
                          @endif -->
 
                         <a href="{{\Session::get('btarearestrita_link')}}" target="_blank">

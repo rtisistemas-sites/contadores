@@ -66,14 +66,14 @@ if (\Session::get('modelo_bannertopo') === 3) {
                             <form action="/contatoemail" method="POST" role="form" enctype="multipart/form-data">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <div class="col-md-12" style="height: 45px;">
-                                    <input type="text" name="nome" id="name" required class="form-control {{$input_m3}}" placeholder="Nome Completo">
+                                    <input type="text" name="nome" id="name" required class="form-control {{$input_m3}}" placeholder="Nome Completo ">
                                 </div>
 
                                 <div class="col-md-12" style="height: 45px;">
-                                    <input type="text" name="email" id="email" required class="form-control {{$input_m3}}" placeholder="Endereço do E-mail">
+                                    <input type="text" name="email" id="email" required class="form-control {{$input_m3}}" placeholder="Endereço de E-mail ">
                                 </div>
                                 <div class="col-md-12" style="height: 45px;">
-                                    <input type="text" name="assunto" id="subject" required class="form-control {{$input_m3}}" placeholder="Assunto">
+                                    <input type="text" name="assunto" id="subject" required class="form-control {{$input_m3}}" placeholder="Assunto  ">
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -181,7 +181,6 @@ if (\Session::get('modelo_bannertopo') === 3) {
     </div>
     <br><br>
     @endif
-
 
 </div>
 @endsection
