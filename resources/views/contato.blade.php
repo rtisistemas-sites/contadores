@@ -117,7 +117,7 @@ if (\Session::get('modelo_bannertopo') == 3) {
 
                         @if(\Session::get('modelo_bannertopo') != 3)
                         <div class="col-md-6 container">
-                            <p class="titulo_fixo_ultimas_noticias">{{{\Session::get('cli_nome')}}}</p>
+                            <p class="titulo_fixo_ultimas_noticias">{{\Session::get('cli_nome')}}</p>
                             <p>{{ \Session::get('footer_endereco') }} - {{ \Session::get('footer_bairro') }}</p>
                             <p>CEP: {{ \Session::get('footer_cep') }}</p>
                             @if((!empty(\Session::get('footer_telefone'))) || (!empty(\Session::get('footer_telefone2'))))
