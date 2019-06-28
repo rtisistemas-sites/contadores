@@ -58,7 +58,7 @@ if (\Session::get('modelo_bannertopo') === 3) {
                     <div id="message"></div>
 
                     @if(\Session::get('modelo_bannertopo') != 3)
-                    <br>
+                    <div class="col-md-12" style="height: 20px !important;"></div>
                     @endif
 
                     <div class="col-md-12">
