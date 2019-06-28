@@ -107,7 +107,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <meta property="fb:admins"         content="werockcontent"/>
         <meta name="twitter:image" content="{{ \Session::get('og_image') }}">
 
-        <title>{{{\Session::get('cli_nome')}}}</title>
+        <title>{{\Session::get('cli_nome')}}</title>
     </head>
     <body id="custom">
 
