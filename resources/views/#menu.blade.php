@@ -116,14 +116,15 @@ if (\Session::get('modelo_bannertopo') === 3) {
                     </ul>
 
 
-                </div><!-- end navbar-collapse collapse -->
+                </div>
             </div><!-- nav -->
         </nav><!-- end navigation -->
     </div><!-- menu wrapper -->
-    @if(\Session::get('modelo_bannertopo') === 2)
+
+    @if(\Session::get('modelo_bannertopo') == 2)
     <br>
     @endif
-    @if(\Session::get('modelo_bannertopo') === 3)
+    @if(\Session::get('modelo_bannertopo') == 3)
     <br><br>
     @endif
 </div><!-- end header -->
