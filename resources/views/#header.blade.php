@@ -18,6 +18,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
     <head>
         <?php echo \Session::get('google_alalytics') ?>
 
+
         <!-- META DATA -->
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -53,8 +54,8 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <link href="{{ asset('/../rticontadores_git/public/css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('/../rticontadores_git/public/css/style.css') }}" rel="stylesheet">
 
-        <!-- incluidos -->
 
+        <!-- incluidos -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
