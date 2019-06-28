@@ -54,7 +54,12 @@ if (\Session::get('modelo_bannertopo') === 3) {
                     @endif
 
 
+
                     <div id="message"></div>
+
+                    @if(\Session::get('modelo_bannertopo') != 3)
+                    <br>
+                    @endif
 
                     <div class="col-md-12">
                         <div class="col-md-6">
