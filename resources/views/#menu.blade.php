@@ -124,10 +124,10 @@ if (\Session::get('modelo_bannertopo') === 3) {
 
 
 
-    @if(\Session::get('modelo_bannertopo') === 2)
+    @if(\Session::get('modelo_bannertopo') == 2)
     <br>
     @endif
-    @if(\Session::get('modelo_bannertopo') === 3)
+    @if(\Session::get('modelo_bannertopo') == 3)
     <br><br>
     @endif
 </div><!-- end header -->
