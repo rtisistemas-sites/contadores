@@ -7,7 +7,7 @@ $input_m3 = '';
 $textarea_m3 = '';
 $fundo_branco_m3 = '';
 
-if (\Session::get('modelo_bannertopo') == 3) {
+if (\Session::get('modelo_bannertopo') === 3) {
     $input_m3 = 'contato-input-m3';
     $textarea_m3 = 'contato-textarea-m3';
     $fundo_branco_m3 = 'fundo-branco-m3';
