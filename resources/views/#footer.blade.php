@@ -248,7 +248,7 @@ if (\Session::get('pagina') == 'HOME') {
         <div class=" col-md-8 logo_rodape" style="max-height: 205px;">
             <center>
                 <div class="col-md-12">
-                    <a id="brand" class="navbar-brand" href="/principal"><img class="col-md-12 img-responsive" src="{{\Session::get('nomeImagem2')}}" alt="{{\Session::get('cli_nome')}}"></a>
+                    <a id="brand" class="navbar-brand" href="/principal"><img class="col-md-12 img-responsive" src="{{ \Session::get('nomeImagem2') }}" alt="{{\Session::get('cli_nome')}}"></a>
                 </div>
                 <div class="widget col-lg-12 col-md-12  col-xs-12" style="margin-top: 30px;">
                     <div class="social pull-left">
@@ -302,11 +302,11 @@ if (\Session::get('pagina') == 'HOME') {
             </ul>
         </div>
 
-    </div><!-- end container -->
+    </div>
     @endif
 
 
-</footer><!-- end footer -->
+</footer>
 
 <div class="copyrights">
     <div class="container img-responsive">
@@ -315,7 +315,7 @@ if (\Session::get('pagina') == 'HOME') {
 
             <div class="col-md-6 rp1">
                 <div class="title left">
-                    <h5 style="padding-top: 25px;" class="title-footer">Copyrights © <?php echo date('Y'); ?>. Todos os direitos reservados {{{\Session::get('cli_nome')}}}</h5>
+                    <h5 style="padding-top: 25px;" class="title-footer">Copyrights © <?php echo date('Y'); ?>. Todos os direitos reservados {{\Session::get('cli_nome')}}</h5>
                 </div>
             </div>
 

@@ -50,7 +50,6 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <!-- END TESTE ----------   -->
 
 
-
         <link href="{{ asset('/../rticontadores_git/public/css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('/../rticontadores_git/public/css/style.css') }}" rel="stylesheet">
 
@@ -92,7 +91,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
 
 
 
-        <!-- FACEBOOK KEYWORDS -->
+        <!-- FACEBOOK KEYWORDS    -->
         <meta property="og:title"          content="{{ \Session::get('og_title')       }}"/>
         <meta property="og:description"    content="{{ \Session::get('og_description') }}"/>
         <meta property="og:url"            content="{{ \Session::get('og_url')         }}"/>

@@ -54,7 +54,6 @@ if (\Session::get('modelo_bannertopo') === 3) {
                     @endif
 
 
-
                     <div id="message"></div>
 
                     @if(\Session::get('modelo_bannertopo') != 3)
@@ -70,10 +69,10 @@ if (\Session::get('modelo_bannertopo') === 3) {
                                 </div>
 
                                 <div class="col-md-12" style="height: 45px;">
-                                    <input type="text" name="email" id="email" required class="form-control {{$input_m3}}" placeholder="Endereço de E-mail ">
+                                    <input type="text" name="email" id="email" required class="form-control {{$input_m3}}" placeholder="Endereço do E-mail ">
                                 </div>
                                 <div class="col-md-12" style="height: 45px;">
-                                    <input type="text" name="assunto" id="subject" required class="form-control {{$input_m3}}" placeholder="Assunto  ">
+                                    <input type="text" name="assunto" id="subject" required class="form-control {{$input_m3}}" placeholder="Assunto ">
                                 </div>
 
                                 <div class="clearfix"></div>
