@@ -47,7 +47,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script  type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <!-- END TESTE ------------- -->
+        <!-- END TESTE -------------   -->
 
 
 
@@ -80,7 +80,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
-        <link rel="shortcut icon" href="{{{\Session::get('icone_aba')}}}"/>
+        <link rel="shortcut icon" href="{{\Session::get('icone_aba')}}"/>
 
 
         <!-- KEYWORDS -->
@@ -105,7 +105,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <meta property="og:type"           content="website"/>
         <meta property="fb:app_id"         content="1484255198531508"/>
         <meta property="fb:admins"         content="werockcontent"/>
-        <meta name="twitter:image" content="{{ \Session::get('og_image')       }}">
+        <meta name="twitter:image" content="{{ \Session::get('og_image') }}">
 
         <title>{{{\Session::get('cli_nome')}}}</title>
     </head>
