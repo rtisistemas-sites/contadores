@@ -139,7 +139,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
                          @endif -->
 
 
-                        <a href="{{ \Session::get('btarearestrita_link') }}" target="_blank">
+                        <a href="{{\Session::get('btarearestrita_link')}}" target="_blank">
                             <div class="col-md-3 area-restrita-m3 pull-right" style="margin: 0px;padding: 0px;"><div class="col-md-12">ÁREA DO CLIENTE</div></div>
                         </a>
 
