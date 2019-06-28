@@ -120,7 +120,7 @@ if (\Session::get('modelo_bannertopo') === 3) {
                 </div>
             </div>
         </nav>
-    </div><!-- menu wrapper -->
+    </div><!--  menu wrapper   -->
 
 
 
