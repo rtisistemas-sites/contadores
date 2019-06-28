@@ -50,6 +50,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
 
 
 
+
         <link href="{{ asset('/../rticontadores_git/public/css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('/../rticontadores_git/public/css/style.css') }}" rel="stylesheet">
 
