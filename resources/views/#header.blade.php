@@ -50,8 +50,8 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <!-- END TESTE ----------   -->
 
 
-        <link href="{{ asset('/public/css/app.css') }}" rel="stylesheet">
-        <link href="{{ asset('/public/css/style.css') }}" rel="stylesheet">
+        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
 
 
         <!-- incluidos -->
@@ -66,12 +66,12 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
 
         <?php include '/css/style.php'; ?>
 
-        <link type="text/css" rel="stylesheet" href="{{ asset('/public/css/style-portfolio.css') }}" media="screen">
-        <link type="text/css" rel="stylesheet" href="{{ asset('/public/css/pro-bars.min.css') }}" media="screen">
-        <link type="text/css" rel="stylesheet" href="{{ asset('/public/css/animate.min.css') }}" media="screen">
-        <link type="text/css" rel="stylesheet" href="{{ asset('/public/css/rotator.css') }}" media="screen">
+        <link type="text/css" rel="stylesheet" href="{{ asset('/css/style-portfolio.css') }}" media="screen">
+        <link type="text/css" rel="stylesheet" href="{{ asset('/css/pro-bars.min.css') }}" media="screen">
+        <link type="text/css" rel="stylesheet" href="{{ asset('/css/animate.min.css') }}" media="screen">
+        <link type="text/css" rel="stylesheet" href="{{ asset('/css/rotator.css') }}" media="screen">
 
-        <link type="text/css" rel="stylesheet" href="{{ asset('/../rticontadores_git/public/css/bootstrap.css') }}" media="screen">
+        <link type="text/css" rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}" media="screen">
         <!-- Google Font Styles -->
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700' rel='stylesheet' type='text/css'>
