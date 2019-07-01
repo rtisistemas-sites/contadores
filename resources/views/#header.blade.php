@@ -49,8 +49,6 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
 
         <!-- END block TESTE     ----------   -->
 
-
-
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
