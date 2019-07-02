@@ -118,6 +118,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
                 <div class="row">
                     <div class="col-md-12 social_modelo_de_pagina_03" style="padding: 0px;margin: 0px;">
                         <div id="div_social_modelo_de_pagina_03_margem" class="pull-right"></div>
+
                         <!-- @if(!(empty(\Session::get('footer_twitter'))) && (\Session::get('footer_twitter') != '#'))
                          <span class="pull-right"><a title="Twitter" href="<?php echo \Session::get('footer_twitter') ?>" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
                          @endif
