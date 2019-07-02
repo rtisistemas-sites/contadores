@@ -98,7 +98,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <meta property="og:image"          content="{{ \Session::get('og_image')       }}"/>
         <meta property="og:image:url"      content="{{ \Session::get('og_image')       }}"/>
         <!--  <meta property="og:image:width"    content="800">
-          <meta property="og:image:height"   content="600">
+          
 
           <meta property="og:type"           content="article"/>
           <meta property="fb:admins"         content="100007226432203" />-->
@@ -117,9 +117,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
             <div class="container" >
                 <div class="row">
                     <div class="col-md-12 social_modelo_de_pagina_03" style="padding: 0px;margin: 0px;">
-                        <div id="div_social_modelo_de_pagina_03_margem" class="pull-right"></div>
-
-                        <!-- @if(!(empty(\Session::get('footer_twitter'))) && (\Session::get('footer_twitter') != '#'))
+                        <div id="div_social_modelo_de_pagina_03_margem" class="pull-right"></div>                   <!-- @if(!(empty(\Session::get('footer_twitter'))) && (\Session::get('footer_twitter') != '#'))
                          <span class="pull-right"><a title="Twitter" href="<?php echo \Session::get('footer_twitter') ?>" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
                          @endif
                          @if(!(empty(\Session::get('footer_facebook'))) && (\Session::get('footer_facebook') != '#'))
