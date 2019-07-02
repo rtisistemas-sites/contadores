@@ -98,7 +98,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <meta property="og:image"          content="{{ \Session::get('og_image')       }}"/>
         <meta property="og:image:url"      content="{{ \Session::get('og_image')       }}"/>
         <!--  <meta property="og:image:width"    content="800">
-          
+          <meta property="og:image:height"   content="600">
 
           <meta property="og:type"           content="article"/>
           <meta property="fb:admins"         content="100007226432203" />-->
