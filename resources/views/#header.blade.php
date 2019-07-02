@@ -70,6 +70,7 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
         <link type="text/css" rel="stylesheet" href="{{ asset('css/rotator.css') }}" media="screen">
 
         <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" media="screen">
+
         <!-- Google Font Styles -->
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700' rel='stylesheet' type='text/css'>
