@@ -137,7 +137,6 @@ $caminhoFato = 'https://fatogerador.net/painelUnico/public/';
                          <span class="pull-right"><a title="Linkedin" href="<?php echo \Session::get('footer_linkedin') ?>"   target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
                          @endif -->
 
-
                         <a href="{{ \Session::get('btarearestrita_link') }}" target="_blank">
                             <div class="col-md-3 area-restrita-m3 pull-right" style="margin: 0px;padding: 0px;"><div class="col-md-12">ÁREA DO CLIENTE</div></div>
                         </a>
